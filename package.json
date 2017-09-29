@@ -1,0 +1,36 @@
+{
+  "name": "tcpigeon",
+  "version": "1.0.0",
+  "description": "A simple transparent TCP proxy implementation for debugging purposes.",
+  "private": false,
+  "main": "index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skanna/tcpigeon.git"
+  },
+  "keywords": [
+    "proxy", 
+    "tcp", 
+    "socket", 
+    "connection",  
+    "net",
+    "network", 
+    "forward", 
+    "mitm"
+  ],
+  "author": {
+    "name": "Marco Scannavini",
+    "email": "skakko@gmail.com"
+  },
+  "engines" : {
+    "node" : ">=6.11.x"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skanna/tcpigeon/issues"
+  },
+  "homepage": "https://github.com/skanna/tcpigeon#readme"
+}
