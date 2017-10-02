@@ -1,11 +1,11 @@
 {
   "name": "tcpigeon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple transparent TCP proxy implementation for debugging purposes.",
   "private": false,
   "main": "index",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha || node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,9 @@
   },
   "engines" : {
     "node" : ">=6.11.x"
+  },
+  "devDependencies": {
+    "mocha": "^3.5.3"
   },
   "license": "MIT",
   "bugs": {
