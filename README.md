@@ -1,6 +1,7 @@
 # Tcpigeon
 
 [![NPM](https://nodei.co/npm/tcpigeon.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/tcpigeon/)
+[![Build Status](https://travis-ci.org/skanna/tcpigeon.svg?branch=master)](https://travis-ci.org/skanna/tcpigeon)
 
 ``` 
      _
