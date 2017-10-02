@@ -51,6 +51,22 @@ var Tcpigeon = require('tcpigeon');
 
 See [examples](example/).
 
+## Tests
+
+If you don't have ```mocha``` installed you need to install devDependecies:
+
+```
+$ cd tcpigeon
+$ npm install
+
+```
+ 
+Run tests:
+
+```
+$ npm test
+```
+
 ## Options
 
 ```javascript

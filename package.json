@@ -1,6 +1,6 @@
 {
   "name": "tcpigeon",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple transparent TCP proxy implementation for debugging purposes.",
   "private": false,
   "main": "index",
