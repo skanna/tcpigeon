@@ -55,7 +55,7 @@ See [examples](example/).
 
 ## Tests
 
-If you don't have ```mocha``` installed you need to install devDependecies:
+If you don't have ```mocha``` installed you need to install *devDependecies*:
 
 ```
 $ cd tcpigeon
@@ -96,14 +96,15 @@ Tcpigeon#fly(Object tcpigeon_options) : net.Server
 // Stop proxy
 Tcpigeon#land() : undefined
 
-// Drop a connection to the specified client, returns the number of connected clients
+// Drop the connection to the specified client
 Tcpigeon#kill(ip_address) : undefined
 
 // Returns the list of the open sockets in the form 'ip_address:port'
 Tcpigeon#flock() : Array
 ```
 
-The `fly` method returns `null` in case of configuration error (wrong option).
+The `fly` method returns `null` in case of configuration error, (ie an option in a bad format). In case there are many open sockets shared with the same client the `kill` method will destroy the first one it finds.
+
 
 ## Events
 
