@@ -3,6 +3,8 @@
 [![NPM](https://nodei.co/npm/tcpigeon.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/tcpigeon/)
 
 [![Build Status](https://travis-ci.org/skanna/tcpigeon.svg?branch=master)](https://travis-ci.org/skanna/tcpigeon)
+[![NPM DOWNLOADS](http://img.shields.io/npm/dm/tcpigeon.svg?style=flat)](http://npm-stat.com/charts.html?package=tcpigeon)
+[![HitCount](http://hits.dwyl.io/skanna/tcpigeon.svg)](http://hits.dwyl.io/skanna/tcpigeon)
 
 ``` 
      _
