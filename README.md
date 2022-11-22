@@ -63,8 +63,9 @@ If you don't have ```mocha``` installed you need to install *devDependecies*:
 $ cd tcpigeon
 $ npm install
 ```
+ You also need the *nc* command (netcat) on a Linux envoronment in order to run tests.
  
-Run tests:
+### Run tests:
 
 ```
 $ npm test
